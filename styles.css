@@ -1,13 +1,100 @@
 .stButton > button {
-    background-color: #2D5BFF;
-    color: white;
-    border-radius: 8px;
-    height: 45px;
-    font-weight: 600;
+  background-color: #2d5bff;
+  color: white;
+  border-radius: 8px;
+  height: 45px;
+  font-weight: 600;
 }
 
 .stFileUploader {
-    border: 2px dashed #ccc;
-    padding: 20px;
-    border-radius: 10px;
+  border: 2px dashed #ccc;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+/* Navbar Container */
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 70px;
+  background: linear-gradient(90deg, #0f172a, #1e293b);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 40px;
+  z-index: 999;
+}
+
+/* Logo */
+.logo {
+  color: white;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+/* Nav Right Section */
+.navbar-right {
+  display: flex;
+  gap: 30px;
+}
+
+/* Nav Items */
+
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 60%;
+  transform: translateX(+35%);
+  height: 60px;
+  display: flex;
+  justify-content: center; /* center horizontally */
+  align-items: center;
+  background: transparent;
+  z-index: 999999;
+}
+
+/* Blue rounded container */
+.nav-pill {
+  background: linear-gradient(90deg, #0f172a, #1e293b);
+  padding: 8px 40px;
+  border-radius: 16px;
+  display: flex;
+  gap: 40px;
+  align-items: center;
+}
+
+/* Nav items */
+.nav-item {
+  color: #cbd5e1;
+  font-size: 15px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.nav-item:hover {
+  color: white;
+}
+
+.nav-item.active {
+  background-color: #334155;
+  padding: 8px 14px;
+  border-radius: 10px;
+  color: white;
+}
+
+/* Push page content down */
+.block-container {
+  padding-top: 20px !important;
+}
+
+hr {
+  margin-top: 10px !important;
+  margin-bottom: 10px !important;
+}
+
+h2 {
+  margin-top: 0px !important;
 }

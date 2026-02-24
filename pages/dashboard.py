@@ -1,7 +1,9 @@
 import streamlit as st
 from utils.ui import analysis_card
+from components.navbar import render_navbar
 
 def show_dashboard():
+    render_navbar(active_page="Dashboard")
     st.markdown("## Upload Financial Report")
 
     uploaded_file = st.file_uploader(
