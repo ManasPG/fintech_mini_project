@@ -45,12 +45,6 @@ def analysis_card(title, description):
             unsafe_allow_html=True
         )
         return st.checkbox("Select", key=title)
-<<<<<<< HEAD
 
 def render_logo():
     st.image("logo.png", width=150)
-=======
-    
-def render_logo():
-    st.image("logo.png", width=150)
->>>>>>> de505af07e81f0969ee334f5f953e06ebe05f46a
